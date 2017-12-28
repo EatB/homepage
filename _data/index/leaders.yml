@@ -1,0 +1,15 @@
+# about me section data
+# If you don't have language feature(language.yml is empty), ignore "i18n" items
+# Suggest projects' img be located at '/static/assets/img/leader_mugshots', and edit following img items.
+- name: Michael Wu
+  i18n: michael wu
+  img: /static/assets/img/leader_mugshots/michael_wu_mugshot.jpg
+  bio: I am Michael Wu
+- name: Michael Wu
+  i18n: michael wu
+  img: /static/assets/img/leader_mugshots/michael_wu_mugshot.jpg
+  bio: I am Michael Wu
+- name: Michael Wu
+  i18n: michael wu
+  img: /static/assets/img/leader_mugshots/michael_wu_mugshot.jpg
+  bio: I am Michael Wu
