@@ -26,7 +26,9 @@
             <li><a href="mailto:{{ link.email }}"><i class="fa fa-envelope-o"></i></a></li>
           -->
             {% if link.last_name != 'Apply for Board of Directors' %}
-              <li><a href="subscribe.html" target="blank"><i class="fa fa-link"></i></a></li>
+              <li>
+                <li><a href="{{ link.website }}" target="blank"><i class="fa fa-link"></i></a></li>
+              </li>
             {%else%}
               <li>
                 <p> Application is closed </p>

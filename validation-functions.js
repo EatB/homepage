@@ -78,11 +78,14 @@ $(document).ready(function() {
         var redirectUrl = 'success-page.html';
         // show the loading
         $('#postForm').prepend($('<span></span>').addClass('glyphicon glyphicon-refresh glyphicon-refresh-animate'));
+        alert('reached');
         var jqxhr = $.post(url, $form.serialize(), function(data) {
+          alert('here');
             console.log("Success! Data: " + data.statusText);
             $(location).attr('href',redirectUrl);
         })
             .fail(function(data) {
+              alert('here2');
                 console.warn("Error! Data: " + data.statusText);
                 // HACK - check if browser is Safari - and redirect even if fail b/c we know the form submits.
                 if (navigator.userAgent.search("Safari") >= 0 && navigator.userAgent.search("Chrome") < 0) {

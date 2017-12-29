@@ -9,7 +9,7 @@
 - last_name: Subscribe
   first_name:
   desc: Description for subscription
-  website: subscribe.html
+  website: https://docs.google.com/forms/d/e/1FAIpQLSeHcQBdsXLshlWrOtMazd2iAO55O-o9evIydMwPPS7uDKQdOA/viewform?usp=sf_link
   email: EntrepreneurAtBerkeley@gmail.com
 
 - last_name: Apply for Board of Directors
