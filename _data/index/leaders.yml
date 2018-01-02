@@ -4,8 +4,17 @@
 - name: Michael Wu
   i18n: michael wu
   img: /static/assets/img/leader_mugshots/michael_wu_mugshot.jpg
+  email: wuxiaohua1011@berkeley.edu
   bio: Michael Wu is an undergraduate at UC Berkeley. He is passionate about entrepreneurship and technology and intend to bridge the gap between engineering and business or other humanity related majors. With previous experience in his own startup and event organization, he hopes to shed new light in the entrepreneurial spirit throughout the Berkeley campus.
+
 - name: Ying (Emily) Wang
   i18n: Ying (Emily) Wang
   img: /static/assets/img/leader_mugshots/ying_wang_mugshot.jpg
+  email: yingwang947@berkeley.edu
   bio: I am a junior student majoring in Economics. Before transferring to Cal, I created Ohlone Table Tennis Club. I persuaded companies like Google and Yahoo! to sponsor my team and led my team to win the National Collegiate Championships. I was also the Senator of Student Government where I assisted in making decisions that affected club activities. Currently, as the founder and the board member of the Entrepreneur@Berkeley, I believe this club can transform students' business ideas into a reality.
+
+- name: Khawaja Zargham bin Aamer
+  i18n: Khawaja Zargham bin Aamer
+  img: /static/assets/img/leader_mugshots/khawaja_zargham_bin_aamer_mugshot.jpg
+  email: zargham@berkeley.edu
+  bio: I am a senior majoring in Economics at Cal. I am very passionate about entrepreneurship and love working with people working on innovative disruptive ideas. I have particular experience in the Ed-tech and Blockchain space and am currently working for a blockchain startup.
