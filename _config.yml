@@ -28,7 +28,7 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: fa-linux
     - name: icon-apache
-  desc: To provide a platform for students to exchange ideas, to find potential partners, and to launch their potential businesses.  # Describe yourself.
+  desc: Our mission is to provide a platform for students to exchange ideas, to find potential partners, and to understand the start-up development process and launch their potential businesses.  # Describe yourself.
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
