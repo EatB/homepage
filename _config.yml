@@ -1,7 +1,7 @@
 # Welcome to Jekyll!
 
 # Website settings
-title: Entrepreneur@Berkeley
+title: Entrepreneurs@Berkeley
 description: Homepage of the Entrepreneur At Berkeley
 keywords: Entrepreneur Berkeley
 baseurl:   # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
@@ -11,7 +11,7 @@ img_path: /homepage/static/assets/img/blog  # url should be '/homepage/static/as
 
 # author -- index page "about me" section
 author:  # change following line to your infomation.
-  name: EntrepreneurAtBerkeley  # Be used at blog posts' author.
+  name: Entrepreneurs@Berkeley  # Be used at blog posts' author.
   first_name: Entrepreneur # Be used at index page about me section.
   last_name: Berkeley  # Be used at index page about me section.
   avatar: /static/assets/img/landing/logo2.png  # upload your avatar at directory and edit it.
