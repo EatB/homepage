@@ -1,0 +1,10 @@
+- name: Jorge Calderon
+  i18n: Jorge Calderon
+  img: /static/assets/img/advisors/Jorge_Calderon.jpg
+  email:
+  bio:
+- name: Stephen Torres
+  i18n: Stephen Torres
+  img: /static/assets/img/advisors/Stephen_Torres.jpg
+  email:
+  bio:

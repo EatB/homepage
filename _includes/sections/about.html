@@ -10,7 +10,7 @@
         <div class="col-lg-8 col-lg-offset-2">
             <div class="team-member wow zoomIn">
                 <img src="{{ site.author.avatar | prepend: site.baseurl }}" height="110" width="110" class="img-responsive img-circle" alt="">
-                
+
             </div>
         </div>
     </div>
@@ -19,6 +19,7 @@
             <p><span data-i18n="about_me.des">Our mission is to provide a platform for students to exchange ideas, to find potential partners, and to understand the start-up development process and launch their potential businesses.</span></p>
         </div>
     </div>
+    <!-- start of board of director section -->
       <div class="row m-b-lg">
           <div class="col-lg-12 text-center">
               <div class="navy-line"></div>
@@ -52,4 +53,70 @@
       </div>
       </div>
       <br>
+      </div>
+
+<!-- start of partner section -->
+<div class="row m-b-lg">
+    <div class="col-lg-12 text-center">
+        <div class="navy-line"></div>
+        <h1><span data-i18n="projects.my_projects">Partners</span></h1>
+    </div>
+</div>
+<div class="row">
+    {% for leader in site.data.index.partners %}
+        {% assign loopindex = forloop.index | modulo: 2 %}
+        {% if forloop.last %}
+            {% if forloop.last == forloop.first %}
+        <div class="col-sm-6 wow col-sm-offset-3 zoomIn">
+            {% else %}
+        <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft col-sm-offset-3 {% else %} fadeInRight {% endif %}">
+            {% endif %}
+        {% else %}
+        <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft {% else %} fadeInRight {% endif %}">
+        {% endif %}
+          <div class="team-member">
+              <img src="{{ leader.img | prepend: site.baseurl }}" class="img-responsive" width="300" height="300" alt="">
+              <h5>
+                <span>{{ leader.email }}</span>
+              </h5>
+              <p><span data-i18n="leader.{{ leader.i18n }}">{{ leader.bio }}</span></p>
+          </div>
+      </div>
+  {% endfor %}
+</div>
+</div>
+<br>
+</div>
+
+<!-- start of advisor section -->
+<div class="row m-b-lg">
+    <div class="col-lg-12 text-center">
+        <div class="navy-line"></div>
+        <h1><span data-i18n="projects.my_projects">Advisor</span></h1>
+    </div>
+</div>
+<div class="row">
+    {% for leader in site.data.index.advisor %}
+        {% assign loopindex = forloop.index | modulo: 2 %}
+        {% if forloop.last %}
+            {% if forloop.last == forloop.first %}
+        <div class="col-sm-6 wow col-sm-offset-3 zoomIn">
+            {% else %}
+        <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft col-sm-offset-3 {% else %} fadeInRight {% endif %}">
+            {% endif %}
+        {% else %}
+        <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft {% else %} fadeInRight {% endif %}">
+        {% endif %}
+          <div class="team-member">
+              <img src="{{ leader.img | prepend: site.baseurl }}" class="img-responsive img-small img-circle" alt="">
+              <h4>
+                <span class="navy">{{ leader.name }}</span>
+              </h4>
+              <p><span data-i18n="leader.{{ leader.i18n }}">{{ leader.bio }}</span></p>
+          </div>
+      </div>
+  {% endfor %}
+</div>
+</div>
+<br>
 </div>
