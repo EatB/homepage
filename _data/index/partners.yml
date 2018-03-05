@@ -1,0 +1,11 @@
+- name: Sutardja Center for Entrepreneurship & Technology
+  i18n: Sutardja Center for Entrepreneurship & Technology
+  img: static/assets/img/partners/scet.png
+  email:
+  bio:
+
+- name: Berkeley Leadership Network
+  i18n: Berkeley Leadership Network
+  img: static/assets/img/partners/berkeley_leadership_network.png
+  email:
+  bio:

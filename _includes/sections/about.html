@@ -1,64 +1,122 @@
 <div class="container" id="i18_about_me">
-    <div class="row m-b-lg">
+    <div class="row s-b-lg">
         <div class="col-lg-12 text-center">
             <div class="navy-line"></div>
-            <h1><span data-i18n="about_me.about_me">About Me</span></h1>
-            <!-- <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p> -->
+            <h1><span data-i18n="about_me.about_me">About Us</span></h1>
         </div>
     </div>
     <div class="row">
-        <!-- first two icons -->
-        {% for icon in site.author.skill_icon1 %}
-        <div class="col-xs-2 wow fadeInLeft">
-            <div class="team-member">
-                <div class="vote-icon">
-                    <i class="fa {{ icon.name }}"></i>
-                </div>
-            </div>
-        </div>
-        {% endfor %}
         <!-- avatar -->
-        <div class="col-xs-4">
+        <div class="col-lg-8 col-lg-offset-2">
             <div class="team-member wow zoomIn">
                 <img src="{{ site.author.avatar | prepend: site.baseurl }}" height="110" width="110" class="img-responsive img-circle" alt="">
-                <h4><span class="navy">{{ site.author.first_name }}</span> {{ site.author.last_name }}</h4>
-                <ul class="list-inline social-icon">
-                    {% if site.author.github_username %}
-                    <li><a href="https://github.com/{{ site.author.github_username }}" target="blank"><i class="fa fa-github"></i></a></li>
-                    {% endif %}
-                    {% if site.author.linkedin_id %}
-                    <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin_id }}" target="blank"><i class="fa fa-linkedin"></i></a></li>
-                    {% endif %}
-                    {% if site.author.facebook_username %}
-                    <li><a href="https://www.facebook.com/{{ site.author.facebook_username }}" target="blank"><i class="fa fa-facebook"></i></a></li>
-                    {% endif %}
-                    {% if site.author.twitter_username %}
-                    <li><a href="https://twitter.com/{{ site.author.twitter_username }}" target="blank"><i class="fa fa-twitter"></i></a></li>
-                    {% endif %}
-                    {% if site.author.email %}
-                    <li><a href="mailto:{{ site.author.email }}"><i class="fa fa-envelope-o"></i></a></li>
-                    {% endif %}
-                    <li><a href="{{ site.baseurl }}/feed.xml" target="blank"><i class="fa fa-rss"></i></a></li>
-                    {% if site.author.cv %}
-                    <li><a href="{{ site.author.cv }}" target="blank"><i class="fa fa-file-pdf-o"></i></a></li>
-                    {% endif %}
-                </ul>
+
             </div>
         </div>
-        <!-- second two icons -->
-        {% for icon in site.author.skill_icon2 %}
-        <div class="col-xs-2 wow fadeInRight">
-            <div class="team-member">
-                <div class="vote-icon">
-                    <i class="fa {{ icon.name }}"></i>
-                </div>
-            </div>
-        </div>
-        {% endfor %}
     </div>
     <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg wow zoomIn">
-            <p><span data-i18n="about_me.des">{{ site.author.desc }}</span></p>
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+            <p><span data-i18n="about_me.des">Our mission is to provide a platform for students to exchange ideas, to find potential partners, and to understand the start-up development process and launch their potential businesses.</span></p>
         </div>
     </div>
+    <!-- start of board of director section -->
+      <div class="row m-b-lg">
+          <div class="col-lg-12 text-center">
+              <div class="navy-line"></div>
+              <h1><span data-i18n="projects.my_projects">Board of Directors</span></h1>
+          </div>
+      </div>
+      <div class="row">
+          {% for leader in site.data.index.leaders %}
+              {% assign loopindex = forloop.index | modulo: 2 %}
+              {% if forloop.last %}
+                  {% if forloop.last == forloop.first %}
+              <div class="col-sm-6 wow col-sm-offset-3 zoomIn">
+                  {% else %}
+              <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft col-sm-offset-3 {% else %} fadeInRight {% endif %}">
+                  {% endif %}
+              {% else %}
+              <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft {% else %} fadeInRight {% endif %}">
+              {% endif %}
+                <div class="team-member">
+                    <img src="{{ leader.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
+                    <h4>
+                      <span class="navy">{{ leader.name }}</span>
+                    </h4>
+                    <h5>
+                      <span>{{ leader.email }}</span>
+                    </h5>
+                    <p><span data-i18n="leader.{{ leader.i18n }}">{{ leader.bio }}</span></p>
+                </div>
+            </div>
+        {% endfor %}
+      </div>
+      </div>
+      <br>
+      </div>
+
+<!-- start of partner section -->
+<div class="row m-b-lg">
+    <div class="col-lg-12 text-center">
+        <div class="navy-line"></div>
+        <h1><span data-i18n="projects.my_projects">Partners</span></h1>
+    </div>
+</div>
+<div class="row">
+    {% for leader in site.data.index.partners %}
+        {% assign loopindex = forloop.index | modulo: 2 %}
+        {% if forloop.last %}
+            {% if forloop.last == forloop.first %}
+        <div class="col-sm-6 wow col-sm-offset-3 zoomIn">
+            {% else %}
+        <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft col-sm-offset-3 {% else %} fadeInRight {% endif %}">
+            {% endif %}
+        {% else %}
+        <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft {% else %} fadeInRight {% endif %}">
+        {% endif %}
+          <div class="team-member">
+              <img src="{{ leader.img | prepend: site.baseurl }}" class="img-responsive" width="300" height="300" alt="">
+              <h5>
+                <span>{{ leader.email }}</span>
+              </h5>
+              <p><span data-i18n="leader.{{ leader.i18n }}">{{ leader.bio }}</span></p>
+          </div>
+      </div>
+  {% endfor %}
+</div>
+</div>
+<br>
+</div>
+
+<!-- start of advisor section -->
+<div class="row m-b-lg">
+    <div class="col-lg-12 text-center">
+        <div class="navy-line"></div>
+        <h1><span data-i18n="projects.my_projects">Advisor</span></h1>
+    </div>
+</div>
+<div class="row">
+    {% for leader in site.data.index.advisor %}
+        {% assign loopindex = forloop.index | modulo: 2 %}
+        {% if forloop.last %}
+            {% if forloop.last == forloop.first %}
+        <div class="col-sm-6 wow col-sm-offset-3 zoomIn">
+            {% else %}
+        <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft col-sm-offset-3 {% else %} fadeInRight {% endif %}">
+            {% endif %}
+        {% else %}
+        <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft {% else %} fadeInRight {% endif %}">
+        {% endif %}
+          <div class="team-member">
+              <img src="{{ leader.img | prepend: site.baseurl }}" class="img-responsive img-small img-circle" alt="">
+              <h4>
+                <span class="navy">{{ leader.name }}</span>
+              </h4>
+              <p><span data-i18n="leader.{{ leader.i18n }}">{{ leader.bio }}</span></p>
+          </div>
+      </div>
+  {% endfor %}
+</div>
+</div>
+<br>
 </div>
