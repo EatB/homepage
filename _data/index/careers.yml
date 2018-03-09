@@ -1,99 +1,15 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
-    detail: Start of 2018 Spring Recruitment
+    detail: Panelist Event
     i18n: company_a
   desc:
     detail:
     i18n: company_a_desc
   date:
-    detail: Feb 5, 2018
+    detail: Early April
     i18n: company_a_date
   job:
     detail: Location TBD
-    i18n: company_a_job
-  icon: fa-plus-square
-
-- name:
-    detail: Prospective Member Presentation I
-    i18n: company_a
-  desc:
-    detail:
-    i18n: company_a_desc
-  date:
-    detail: Feb 6, 2018
-    i18n: company_a_date
-  job:
-    detail: Location TBD
-    i18n: company_a_job
-  icon: fa-plus-square
-
-- name:
-    detail: Prospective Member Presentation II
-    i18n: company_a
-  desc:
-    detail:
-    i18n: company_a_desc
-  date:
-    detail: Feb 8, 2018
-    i18n: company_a_date
-  job:
-    detail: Location TBD
-    i18n: company_a_job
-  icon: fa-plus-square
-
-- name:
-    detail: End of 2018 Spring Recruitment
-    i18n: company_a
-  desc:
-    detail:
-    i18n: company_a_desc
-  date:
-    detail: Feb 9, 2018
-    i18n: company_a_date
-  job:
-    detail: Location TBD
-    i18n: company_a_job
-  icon: fa-plus-square
-
-- name:
-    detail: Applicant Interview
-    i18n: company_a
-  desc:
-    detail: Only if Requested
-    i18n: company_a_desc
-  date:
-    detail: Feb 12-16, 2018
-    i18n: company_a_date
-  job:
-    detail:
-    i18n: company_a_job
-  icon: fa-plus-square
-
-- name:
-    detail: Notification of Acceptance
-    i18n: company_a
-  desc:
-    detail:
-    i18n: company_a_desc
-  date:
-    detail: Feb 19, 2018
-    i18n: company_a_date
-  job:
-    detail:
-    i18n: company_a_job
-  icon: fa-plus-square
-
-- name:
-    detail: General Meeting 1
-    i18n: company_a
-  desc:
-    detail: Introductions, Semester Overview, and Ice-breaker
-    i18n: company_a_desc
-  date:
-    detail: Feb 20, 2018
-    i18n: company_a_date
-  job:
-    detail: Location TBD, Guest Speaker TBD
     i18n: company_a_job
   icon: fa-plus-square
