@@ -4,10 +4,10 @@
     detail: Panelist Event
     i18n: company_a
   desc:
-    detail:
+    detail: Featuring 2 VCs, 2 CEO founders, 2 CTO Founders
     i18n: company_a_desc
   date:
-    detail: Early April
+    detail: April 5, 6:30 - 8:30pm
     i18n: company_a_date
   job:
     detail: Location TBD
