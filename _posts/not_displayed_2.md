@@ -8,7 +8,7 @@ categories: [HTML]
 tags: [Jalpc,Jekyll]
 icon: icon-html
 ---
-
+// you MUST to name your file in this format yyyy-mm-dd-title.md
 This is a raw snippet:
 
 ```

@@ -1,19 +1,18 @@
 # links section data
-- last_name: Apply for Membership
+- last_name: Apply for General Membership
   first_name:
-  desc: Description of applying for membership
-  website: https://www.google.com
+  desc: Application Closed
+  website:
   email: EntrepreneurAtBerkeley@gmail.com
 
+- last_name: Apply for Board Membership
+  first_name:
+  desc: Application Opened!
+  website: https://goo.gl/forms/IcG9y7UddAJr6N6F2
+  email: entrepreneuratberkeley@gmail.com
 
 - last_name: Subscribe
   first_name:
   desc:
   website: https://docs.google.com/forms/d/e/1FAIpQLSeHcQBdsXLshlWrOtMazd2iAO55O-o9evIydMwPPS7uDKQdOA/viewform?usp=sf_link
-  email: EntrepreneurAtBerkeley@gmail.com
-
-- last_name: Apply for Board of Directors
-  first_name:
-  desc:
-  website: https://google.com
   email: EntrepreneurAtBerkeley@gmail.com
