@@ -8,3 +8,9 @@
 #  img: static/assets/img/advisors/Stephen_Torres.jpg
 #  email:
 #  bio:
+
+- name: Yasmin Alnoamany
+  i18n: Jorge Calderon
+  img: static/assets/img/advisors/yasmin_alnoamany.png
+  email:
+  bio:
