@@ -3,16 +3,16 @@
   first_name:
   desc: Application Closed
   website:
-  email: EntrepreneurAtBerkeley@gmail.com
+  email: admin@entrepreneurs.berkeley.edu
 
 - last_name: Apply for Committee Membership
   first_name:
   desc: Application Opened!
   website: https://goo.gl/forms/IcG9y7UddAJr6N6F2
-  email: entrepreneuratberkeley@gmail.com
+  email: admin@entrepreneurs.berkeley.edu
 
 - last_name: Subscribe
   first_name:
   desc:
   website: https://docs.google.com/forms/d/e/1FAIpQLSeHcQBdsXLshlWrOtMazd2iAO55O-o9evIydMwPPS7uDKQdOA/viewform?usp=sf_link
-  email: EntrepreneurAtBerkeley@gmail.com
+  email: admin@entrepreneurs.berkeley.edu

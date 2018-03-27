@@ -6,10 +6,11 @@
   desc:
     detail: Featuring multiple VCs, CEOs, and CTOs
     i18n: company_a_desc
+    url:
   date:
     detail: April 5, 6:30 - 8:30pm
     i18n: company_a_date
   job:
-    detail: Location TBD
+    detail: Moffit 103
     i18n: company_a_job
   icon: fa-plus-square
