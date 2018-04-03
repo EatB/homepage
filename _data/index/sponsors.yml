@@ -1,0 +1,5 @@
+- name: Studypool
+  i18n: Studypool
+  img: static/assets/img/sponsors/square_light.png
+  redirect-link: https://www.studypool.com/accounting-homework-help
+  desc: Get accounting homework help at Studypool
