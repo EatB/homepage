@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Akshatha Blog"
+title:  "What do I want out of E@B?"
 date:   2018-4-20
 desc: "test post"
 keywords: "blog,easy"
@@ -8,11 +8,18 @@ categories: [HTML]
 tags: [Jalpc,Jekyll]
 icon: icon-html
 ---
-“Entrepreneurship”, is a word that intrigues me, especially now, because I’m in the Silicon Valley, which is the hub of innovative ideas coming to life! I remember my first experience as an “Entrepreneur” was me trying to make handmade greeting cards when I was 9 or 10 years old, and selling them to my relatives and friends. Although it was a failed attempt, I had gotten my first taste of what it meant to be an entrepreneur. I remember feeling this sense of pride, that I could sell something I had made and could make money out of it (even though I had just earned $3.50) !
+<span style="color: #f2cf4a; font-family: Babas; font-size: 2em;">
+*“Entrepreneurship”, is a buzzword heard everywhere, especially in a start-up hub like the Bay Area!*
+</span>
+<p><span style="color: #f2cf4a; font-family: Babas; font-size: 2em;">I remember my first venture as an “Entrepreneur” was when I was 10 years old. I had decided to sell my hand-made greeting cards at my school fair. Although it was a failed attempt, I had gotten my first taste of what it meant to be my own boss! I remember feeling this sense of pride that I could sell something I had made and could make money out of it (even though I had just made $1.50)! </span> </p>
 
+![alt text](https://cdn.instructables.com/FUB/3QL8/IYV9QCT2/FUB3QL8IYV9QCT2.LARGE.jpg?crop=3:2 "Logo Title Text 1")
+<p><span style="color: #f2cf4a; font-family: Babas; font-size: 2em;">Fast forward to the present, even though I’m not pursuing a major in business, I still have a streak of entrepreneurial spirit in me. Every morning, on my walk to the gym, I tend to listen to podcasts where people share their success stories on how they built their businesses and companies. And the interesting insight that I gained from listening to these podcasts is that, entrepreneurship is a never-ending journey of grit, perseverance and dusting yourself off and trying again. One of the interesting quotes that Sophia Amoruso, founder and host of Girl Boss Radio and founder of a vintage clothing company called “Nasty Gal” said, “Don’t compare your hustle to a highlight reel.”, really struck me. We tend to see the glamorous side of success, but ignore that the behind-the-scenes might have been pretty ugly. This is a fact that I found not only true not only to entrepreneurship, but to life, especially in a competitive and fast paced environment like Berkeley.
+</span>
 
-Fast forward 10 years later, even though I’m not pursuing a major in business, I still have a streak of entrepreneurial spirit and interest in me. Every morning, on my walk to the gym, I tend to listen to podcasts where people share their success stories on how they built their businesses and companies. And the more I listen to these podcasts, the more I realize that my 10 year old self was just looking at the monetary gain of selling a product. My 20 year old self recognizes that it’s not all about the money, but about the people. “Entrepreneurship” for me has turned more into a way of contributing to society by learning about what their needs are and developing ideas and products that could potentially better their lives. The monetary gain is just part and parcel, of the venture. 
-	
-For instance, I have always been very passionate about promoting and encouraging students to pursue a career in STEM. As a student who hated math and science in high school, I understand the aversive effect that those classes could have on a student’s impression on picking a STEM related major in college. A combination of bad teachers and lack of patient help, had turned be away from STEM. However, after attending community college for 2 years, and being exposed to some amazing math teachers and good STEM programs I started to enjoy the field more, and decided to major in Applied Math at Berkeley! This experience of mine, made me realize that teachers have a huge impact on how students view STEM, and the proficiency with which they’re able to teach STEM related subjects does matter. 
+</p>
+<p><span style="color: #f2cf4a; font-family: Babas; font-size: 2em;">
+So, one of the objectives that I certainly want to gain from the “Entrepreneurs at Berkeley” club, is to gain more of these interesting insights, and apply them to my life. Moreover, I’m just fascinated by the whole start-up culture here and want to know more about it from entrepreneurs and leaders in the industry, and maybe get inspired to make my own start up someday!
+</span>
 
-So, if I were to pursue an entrepreneurial venture, I would definitely like to tinker on a program STEM is promoted through interactive and fun math and science education. And I believe that the experiences and skills that I would gain by being part of Entrepreneurs At Berkeley would help me bring my idea to life someday!
+</p>
