@@ -39,7 +39,8 @@
               <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft {% else %} fadeInRight {% endif %}">
               {% endif %}
                 <div class="team-member">
-                    <img src="{{ leader.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
+                    <a href = "mailto:{{ leader.email }}">
+                      <img src="{{ leader.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt=""></a>
                     <h4>
                       <span class="navy">{{ leader.name }}</span>
                     </h4>
