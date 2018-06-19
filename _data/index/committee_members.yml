@@ -1,0 +1,24 @@
+- name: Jenna Kiyasu
+  i18n:
+  img: static/assets/img/leader_mugshots/jenna_kiyasu.jpg
+  email: jkiyasu@entrepreneurs.berkeley.edu
+
+- name: Katherine Zhao
+  i18n:
+  img: static/assets/img/leader_mugshots/katherine_zhao.jpg
+  email: katherine_zhao@entrepreneurs.berkeley.edu
+
+- name: Melissa Tantiono
+  i18n:
+  img: static/assets/img/leader_mugshots/melissa_tantiono.jpg
+  email: tanmelissa@entrepreneurs.berkeley.edu
+
+- name: Neil Qiao
+  i18n:
+  img: static/assets/img/leader_mugshots/neil_qiao.jpg
+  email: neilqiao@entrepreneurs.berkeley.edu
+
+- name: Akshatha Muralidhar
+  i18n:
+  img: static/assets/img/leader_mugshots/akshatha.jpg
+  email: akshatha.m@entrepreneurs.berkeley.edu

@@ -1,13 +1,13 @@
 # links section data
 - last_name: Apply for General Membership
   first_name:
-  desc: Application Closed
+  desc: Application closed
   website:
   email: admin@entrepreneurs.berkeley.edu
 
 - last_name: Apply for Committee Membership
   first_name:
-  desc: Application Opened!
+  desc: Application closed
   website: https://goo.gl/forms/IcG9y7UddAJr6N6F2
   email: admin@entrepreneurs.berkeley.edu
 
