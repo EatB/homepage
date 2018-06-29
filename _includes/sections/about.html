@@ -1,25 +1,96 @@
-<div class="container" id="i18_about_me">
-    <div class="row s-b-lg">
-        <div class="col-lg-12 text-center">
-            <div class="navy-line"></div>
-            <h1><span data-i18n="about_me.about_me">About Us</span></h1>
-        </div>
-    </div>
-    <div class="row">
-        <!-- avatar -->
-        <div class="col-lg-8 col-lg-offset-2">
-            <div class="team-member wow zoomIn">
-                <img src="{{ site.author.avatar | prepend: site.baseurl }}" height="110" width="110" class="img-responsive img-circle" alt="">
 
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 text-center">
-            <p><span data-i18n="about_me.des">Our mission is to provide a platform for students to exchange ideas, to find potential partners, and to understand the start-up development process and launch their potential businesses.</span></p>
-        </div>
+
+<style>
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    align-content: center;
+    align-self: center;
+    display: inline-table;
+    margin-left: 15%;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    display: table-column;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+}
+</style>
+<script>
+function toggle(evt, name) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(name).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
+
+<div class="container" id="i18_about_me">
+  <div class="tab">
+    <button class="tablinks" onclick="toggle(event, 'about_us')">About Us</button>
+    <button class="tablinks" onclick="toggle(event, 'board_of_directors')">Board of Directors</button>
+    <button class="tablinks" onclick="toggle(event, 'committee_members')">Committee Members</button>
+    <button class="tablinks" onclick="toggle(event, 'partners')">Partners</button>
+    <button class="tablinks" onclick="toggle(event, 'advisors')">Advisors</button>
+    <button class="tablinks" onclick="toggle(event, 'sponsors')">Sponsors</button>
+  </div>
+
+    <!-- start of about section -->
+    <div id="about_us" class="tabcontent">
+      <div class="row s-b-lg">
+          <div class="col-lg-12 text-center">
+              <div class="navy-line"></div>
+              <h1><span data-i18n="about_me.about_me">About Us</span></h1>
+          </div>
+      </div>
+      <div class="row">
+          <!-- avatar -->
+          <div class="col-lg-8 col-lg-offset-2">
+              <div class="team-member wow zoomIn">
+                  <img src="{{ site.author.avatar | prepend: site.baseurl }}" height="110" width="110" class="img-responsive img-circle" alt="">
+
+              </div>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 text-center">
+              <p><span data-i18n="about_me.des">Our mission is to provide a platform for students to exchange ideas, to find potential partners, and to understand the start-up development process and launch their potential businesses.</span></p>
+          </div>
+      </div>
     </div>
     <!-- start of board of director section -->
+    <div id="board_of_directors" class="tabcontent">
       <div class="row m-b-lg">
           <div class="col-lg-12 text-center">
               <div class="navy-line"></div>
@@ -28,6 +99,44 @@
       </div>
       <div class="row">
           {% for leader in site.data.index.leaders %}
+              {% assign loopindex = forloop.index | modulo: 2 %}
+              {% if forloop.last %}
+                  {% if forloop.last == forloop.first %}
+                    <div class="col-sm-6 wow col-sm-offset-3 zoomIn"></div>
+                  {% else %}
+                    <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft col-sm-offset-3 {% else %} fadeInRight {% endif %}"></div>
+                  {% endif %}
+              {% else %}
+                <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft {% else %} fadeInRight {% endif %}">
+              {% endif %}
+                <div class="team-member">
+                    <a href = "mailto:{{ leader.email }}">
+                      <img src="{{ leader.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt=""></a>
+                    <h4>
+                      <span class="navy">{{ leader.name }}</span>
+                    </h4>
+                    <h5>
+                      <span>{{ leader.email }}</span>
+                    </h5>
+                    <p><span data-i18n="leader.{{ leader.i18n }}">{{ leader.bio }}</span></p>
+                </div>
+            </div>
+          {% endfor %}
+        <br>
+        </div>
+      </div>
+
+
+      <!-- start of committee member section -->
+    <div id="committee_members" class="tabcontent">
+      <div class="row m-b-lg">
+          <div class="col-lg-12 text-center">
+              <div class="navy-line"></div>
+              <h1><span data-i18n="projects.my_projects">Committee Members</span></h1>
+          </div>
+      </div>
+      <div class="row">
+          {% for leader in site.data.index.committee_members %}
               {% assign loopindex = forloop.index | modulo: 2 %}
               {% if forloop.last %}
                   {% if forloop.last == forloop.first %}
@@ -44,6 +153,40 @@
                     <h4>
                       <span class="navy">{{ leader.name }}</span>
                     </h4>
+                    <h5 style="margin-top:-5px; margin-bottom:20px;">
+                      <span>{{ leader.email }}</span>
+                    </h5>
+                    <p><span data-i18n="leader.{{ leader.i18n }}">{{ leader.bio }}</span></p>
+                </div>
+            </div>
+        {% endfor %}
+      </div>
+      </div>
+      <br>
+      </div>
+    </div>
+    <!-- start of partner section -->
+    <div id="partners" class="tabcontent">
+      <div class="row m-b-lg">
+          <div class="col-lg-12 text-center">
+              <div class="navy-line"></div>
+              <h1><span data-i18n="projects.my_projects">Partners</span></h1>
+          </div>
+      </div>
+      <div class="row">
+          {% for leader in site.data.index.partners %}
+              {% assign loopindex = forloop.index | modulo: 2 %}
+              {% if forloop.last %}
+                  {% if forloop.last == forloop.first %}
+              <div class="col-sm-6 wow col-sm-offset-3 zoomIn">
+                  {% else %}
+              <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft col-sm-offset-3 {% else %} fadeInRight {% endif %}">
+                  {% endif %}
+              {% else %}
+              <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft {% else %} fadeInRight {% endif %}">
+              {% endif %}
+                <div class="team-member">
+                    <img src="{{ leader.img | prepend: site.baseurl }}" class="img-responsive" width="300" height="300" alt="">
                     <h5>
                       <span>{{ leader.email }}</span>
                     </h5>
@@ -55,144 +198,77 @@
       </div>
       <br>
       </div>
+    </div>
 
-
-      <!-- start of committee member section -->
-        <div class="row m-b-lg">
-            <div class="col-lg-12 text-center">
-                <div class="navy-line"></div>
-                <h1><span data-i18n="projects.my_projects">Committee Members</span></h1>
+    <!-- start of advisor section -->
+    <div id="about_us" class="tabcontent">
+      <div class="row m-b-lg">
+          <div class="col-lg-12 text-center">
+              <div class="navy-line"></div>
+              <h1><span data-i18n="projects.my_projects">Advisor</span></h1>
+          </div>
+      </div>
+      <div class="row">
+          {% for leader in site.data.index.advisor %}
+              {% assign loopindex = forloop.index | modulo: 2 %}
+              {% if forloop.last %}
+                  {% if forloop.last == forloop.first %}
+              <div class="col-sm-6 wow col-sm-offset-3 zoomIn">
+                  {% else %}
+              <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft col-sm-offset-3 {% else %} fadeInRight {% endif %}">
+                  {% endif %}
+              {% else %}
+              <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft {% else %} fadeInRight {% endif %}">
+              {% endif %}
+                <div class="team-member">
+                    <img src="{{ leader.img | prepend: site.baseurl }}" class="img-responsive img-small img-circle" alt="">
+                    <h4>
+                      <span class="navy">{{ leader.name }}</span>
+                    </h4>
+                    <p><span data-i18n="leader.{{ leader.i18n }}">{{ leader.bio }}</span></p>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            {% for leader in site.data.index.committee_members %}
-                {% assign loopindex = forloop.index | modulo: 2 %}
-                {% if forloop.last %}
-                    {% if forloop.last == forloop.first %}
-                <div class="col-sm-6 wow col-sm-offset-3 zoomIn">
-                    {% else %}
-                <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft col-sm-offset-3 {% else %} fadeInRight {% endif %}">
-                    {% endif %}
-                {% else %}
-                <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft {% else %} fadeInRight {% endif %}">
-                {% endif %}
-                  <div class="team-member">
-                      <a href = "mailto:{{ leader.email }}">
-                        <img src="{{ leader.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt=""></a>
-                      <h4>
-                        <span class="navy">{{ leader.name }}</span>
-                      </h4>
-                      <h5 style="margin-top:-5px; margin-bottom:20px;">
-                        <span>{{ leader.email }}</span>
-                      </h5>
-                      <p><span data-i18n="leader.{{ leader.i18n }}">{{ leader.bio }}</span></p>
-                  </div>
-              </div>
-          {% endfor %}
-        </div>
-        </div>
-        <br>
-        </div>
-
-<!-- start of partner section -->
-<div class="row m-b-lg">
-    <div class="col-lg-12 text-center">
-        <div class="navy-line"></div>
-        <h1><span data-i18n="projects.my_projects">Partners</span></h1>
-    </div>
-</div>
-<div class="row">
-    {% for leader in site.data.index.partners %}
-        {% assign loopindex = forloop.index | modulo: 2 %}
-        {% if forloop.last %}
-            {% if forloop.last == forloop.first %}
-        <div class="col-sm-6 wow col-sm-offset-3 zoomIn">
-            {% else %}
-        <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft col-sm-offset-3 {% else %} fadeInRight {% endif %}">
-            {% endif %}
-        {% else %}
-        <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft {% else %} fadeInRight {% endif %}">
-        {% endif %}
-          <div class="team-member">
-              <img src="{{ leader.img | prepend: site.baseurl }}" class="img-responsive" width="300" height="300" alt="">
-              <h5>
-                <span>{{ leader.email }}</span>
-              </h5>
-              <p><span data-i18n="leader.{{ leader.i18n }}">{{ leader.bio }}</span></p>
-          </div>
+        {% endfor %}
       </div>
-  {% endfor %}
-</div>
-</div>
-<br>
-</div>
-
-<!-- start of advisor section -->
-<div class="row m-b-lg">
-    <div class="col-lg-12 text-center">
-        <div class="navy-line"></div>
-        <h1><span data-i18n="projects.my_projects">Advisor</span></h1>
-    </div>
-</div>
-<div class="row">
-    {% for leader in site.data.index.advisor %}
-        {% assign loopindex = forloop.index | modulo: 2 %}
-        {% if forloop.last %}
-            {% if forloop.last == forloop.first %}
-        <div class="col-sm-6 wow col-sm-offset-3 zoomIn">
-            {% else %}
-        <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft col-sm-offset-3 {% else %} fadeInRight {% endif %}">
-            {% endif %}
-        {% else %}
-        <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft {% else %} fadeInRight {% endif %}">
-        {% endif %}
-          <div class="team-member">
-              <img src="{{ leader.img | prepend: site.baseurl }}" class="img-responsive img-small img-circle" alt="">
-              <h4>
-                <span class="navy">{{ leader.name }}</span>
-              </h4>
-              <p><span data-i18n="leader.{{ leader.i18n }}">{{ leader.bio }}</span></p>
-          </div>
       </div>
-  {% endfor %}
-</div>
-</div>
-<br>
-</div>
-
+      <br>
+      </div>
+    </div>
 
 
 <!-- start of sponsor section -->
-<div class="row m-b-lg">
-    <div class="col-lg-12 text-center">
-        <div class="navy-line"></div>
-        <h1><span data-i18n="projects.my_projects">Sponsor</span></h1>
-    </div>
-</div>
-<div class="row">
-    {% for sponsor in site.data.index.sponsors %}
-        {% assign loopindex = forloop.index | modulo: 2 %}
-        {% if forloop.last %}
-            {% if forloop.last == forloop.first %}
-        <div class="col-sm-6 wow col-sm-offset-3 zoomIn">
-            {% else %}
-        <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft col-sm-offset-3 {% else %} fadeInRight {% endif %}">
-            {% endif %}
-        {% else %}
-        <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft {% else %} fadeInRight {% endif %}">
-        {% endif %}
-          <div class="team-member">
-            <a href= "{{ sponsor.redirect-link }}">
-              <img src="{{ sponsor.img | prepend: site.baseurl }}" class="img-responsive img-small img-circle" alt="">
-              <h4>
-                <span class="navy">{{ sponsor.name }}</span>
-              </h4>
-                <p><span data-i18n="sponsor.{{ sponsor.i18n }}">{{ sponsor.desc }}</span></p>
-              </a>
-          </div>
+<div id="sponsors" class="tabcontent">
+  <div class="row m-b-lg">
+      <div class="col-lg-12 text-center">
+          <div class="navy-line"></div>
+          <h1><span data-i18n="projects.my_projects">Sponsor</span></h1>
       </div>
-  {% endfor %}
-</div>
-</div>
-<br>
+  </div>
+  <div class="row">
+      {% for sponsor in site.data.index.sponsors %}
+          {% assign loopindex = forloop.index | modulo: 2 %}
+          {% if forloop.last %}
+              {% if forloop.last == forloop.first %}
+          <div class="col-sm-6 wow col-sm-offset-3 zoomIn">
+              {% else %}
+          <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft col-sm-offset-3 {% else %} fadeInRight {% endif %}">
+              {% endif %}
+          {% else %}
+          <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft {% else %} fadeInRight {% endif %}">
+          {% endif %}
+            <div class="team-member">
+              <a href= "{{ sponsor.redirect-link }}">
+                <img src="{{ sponsor.img | prepend: site.baseurl }}" class="img-responsive img-small img-circle" alt="">
+                <h4>
+                  <span class="navy">{{ sponsor.name }}</span>
+                </h4>
+                  <p><span data-i18n="sponsor.{{ sponsor.i18n }}">{{ sponsor.desc }}</span></p>
+                </a>
+            </div>
+        </div>
+    {% endfor %}
+  </div>
+  </div>
+  <br>
+  </div>
 </div>
