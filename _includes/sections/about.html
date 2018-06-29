@@ -38,6 +38,19 @@
 /* Style the tab content */
 .tabcontent {
     display: none;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
 </style>
 <script>
@@ -54,6 +67,8 @@ function toggle(evt, name) {
     document.getElementById(name).style.display = "block";
     evt.currentTarget.className += " active";
 }
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("about_us").style.display = "block";
 </script>
 
 <div class="container" id="i18_about_me">
@@ -201,7 +216,7 @@ function toggle(evt, name) {
     </div>
 
     <!-- start of advisor section -->
-    <div id="about_us" class="tabcontent">
+    <div id="advisors" class="tabcontent">
       <div class="row m-b-lg">
           <div class="col-lg-12 text-center">
               <div class="navy-line"></div>
@@ -236,39 +251,40 @@ function toggle(evt, name) {
     </div>
 
 
-<!-- start of sponsor section -->
-<div id="sponsors" class="tabcontent">
-  <div class="row m-b-lg">
-      <div class="col-lg-12 text-center">
-          <div class="navy-line"></div>
-          <h1><span data-i18n="projects.my_projects">Sponsor</span></h1>
-      </div>
-  </div>
-  <div class="row">
-      {% for sponsor in site.data.index.sponsors %}
-          {% assign loopindex = forloop.index | modulo: 2 %}
-          {% if forloop.last %}
-              {% if forloop.last == forloop.first %}
-          <div class="col-sm-6 wow col-sm-offset-3 zoomIn">
-              {% else %}
-          <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft col-sm-offset-3 {% else %} fadeInRight {% endif %}">
-              {% endif %}
-          {% else %}
-          <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft {% else %} fadeInRight {% endif %}">
-          {% endif %}
-            <div class="team-member">
-              <a href= "{{ sponsor.redirect-link }}">
-                <img src="{{ sponsor.img | prepend: site.baseurl }}" class="img-responsive img-small img-circle" alt="">
-                <h4>
-                  <span class="navy">{{ sponsor.name }}</span>
-                </h4>
-                  <p><span data-i18n="sponsor.{{ sponsor.i18n }}">{{ sponsor.desc }}</span></p>
-                </a>
-            </div>
+  <!-- start of sponsor section -->
+  <div id="sponsors" class="tabcontent">
+    <div class="row m-b-lg">
+        <div class="col-lg-12 text-center">
+            <div class="navy-line"></div>
+            <h1><span data-i18n="projects.my_projects">Sponsor</span></h1>
         </div>
-    {% endfor %}
-  </div>
-  </div>
-  <br>
+    </div>
+    <div class="row">
+        {% for sponsor in site.data.index.sponsors %}
+            {% assign loopindex = forloop.index | modulo: 2 %}
+            {% if forloop.last %}
+                {% if forloop.last == forloop.first %}
+            <div class="col-sm-6 wow col-sm-offset-3 zoomIn">
+                {% else %}
+            <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft col-sm-offset-3 {% else %} fadeInRight {% endif %}">
+                {% endif %}
+            {% else %}
+            <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft {% else %} fadeInRight {% endif %}">
+            {% endif %}
+              <div class="team-member">
+                <a href= "{{ sponsor.redirect-link }}">
+                  <img src="{{ sponsor.img | prepend: site.baseurl }}" class="img-responsive img-small img-circle" alt="">
+                  <h4>
+                    <span class="navy">{{ sponsor.name }}</span>
+                  </h4>
+                    <p><span data-i18n="sponsor.{{ sponsor.i18n }}">{{ sponsor.desc }}</span></p>
+                  </a>
+              </div>
+          </div>
+      {% endfor %}
+    </div>
+    </div>
+    <br>
+    </div>
   </div>
 </div>
