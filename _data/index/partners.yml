@@ -3,3 +3,9 @@
   img: static/assets/img/partners/berkeley_leadership_network.png
   email:
   bio:
+
+- name: Berkeley Career Center
+  i18n: Berkeley Leadership Network
+  img: static/assets/img/partners/berkeley_career_center.jpeg
+  email:
+  bio:

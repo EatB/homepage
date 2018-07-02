@@ -1,9 +1,9 @@
 # Welcome to Jekyll!
 
 # Website settings
-title: Entrepreneurs@Berkeley
-description: Homepage of the Entrepreneur At Berkeley
-keywords: Entrepreneur Berkeley
+title: Entrepreneurs@Berkeley - UC Berkeley Entrepreneurs at Berkeley
+description: Homepage of Entrepreneurs @ Berkeley in University of California, Berkeley, dedicated to provide a platform for students to exchange ideas, find potential partners, and understand the start-up development process and launch their potential businesses.
+keywords: Entrepreneurship, Berkeley,
 baseurl:   # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
 url: https://entrepreneuratberkeley.github.io/  # url should be 'http://<github_username>.github.io' as before
 # url: http://127.0.0.1:4000

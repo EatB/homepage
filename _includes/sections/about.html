@@ -82,7 +82,7 @@ document.getElementById("about_us").style.display = "block";
   </div>
 
     <!-- start of about section -->
-    <div id="about_us" class="tabcontent">
+    <div id="about_us" class="tabcontent" style="display:block;">
       <div class="row s-b-lg">
           <div class="col-lg-12 text-center">
               <div class="navy-line"></div>
@@ -189,7 +189,7 @@ document.getElementById("about_us").style.display = "block";
           </div>
       </div>
       <div class="row">
-          {% for leader in site.data.index.partners %}
+          {% for partner in site.data.index.partners %}
               {% assign loopindex = forloop.index | modulo: 2 %}
               {% if forloop.last %}
                   {% if forloop.last == forloop.first %}
@@ -201,11 +201,11 @@ document.getElementById("about_us").style.display = "block";
               <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft {% else %} fadeInRight {% endif %}">
               {% endif %}
                 <div class="team-member">
-                    <img src="{{ leader.img | prepend: site.baseurl }}" class="img-responsive" width="300" height="300" alt="">
+                    <img src="{{ partner.img | prepend: site.baseurl }}" class="img-responsive" width="300" height="300" alt="">
                     <h5>
-                      <span>{{ leader.email }}</span>
+                      <span>{{ partner.email }}</span>
                     </h5>
-                    <p><span data-i18n="leader.{{ leader.i18n }}">{{ leader.bio }}</span></p>
+                    <p><span data-i18n="partner.{{ partner.i18n }}">{{ partner.bio }}</span></p>
                 </div>
             </div>
         {% endfor %}
