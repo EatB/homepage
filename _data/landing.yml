@@ -5,6 +5,25 @@
   name: About
   tpl: about.html
   css:
+  drop_down_list:
+    sub_sect:
+        name: About Us
+        tag: about_us
+    sub_sect:
+        name: Board of Directors
+        tag: board_of_directors
+    sub_sect:
+        name: Committee Members
+        tag: committee_members
+    sub_sect:
+        name: Partners
+        tag: partners
+    sub_sect:
+        name: Advisors
+        tag: advisors
+    sub_sect:
+        name: Sponsors
+        tag: sponsors
 
 - id: career
   i18n: nav.career
