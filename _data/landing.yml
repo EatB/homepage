@@ -24,7 +24,11 @@
     item6:
         name: Sponsors
         id: sponsors
-
+# - id: members
+#   name: Member
+#   tpl:
+#   css:
+  
 - id: career
   i18n: nav.career
   name: Program Timeline
