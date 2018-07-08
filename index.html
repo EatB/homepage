@@ -32,8 +32,8 @@ permalink: /
           position: relative;
           display: inline-block;
           text-decoration: none;
-          padding-top: 28px;
-          padding-right: 10px;
+          padding-top: 26px;
+          padding-right: 15px;
 
       }
 
@@ -62,15 +62,18 @@ permalink: /
           {% for section in site.data.landing %}
             <li>
               {% if section.page %}
-                <a class="page-scroll" href="{{ section.page}} "> {{section.name}} a</a>
+                <a class="page-scroll" href="{{ section.page}} "> {{section.name}}</a>
               {% else %}
                   {% if section.drop_down_list %}
                   <div class="dropdown">
-                    <a class="dropbtn">{{section.name}}</a>
+                    <a class="dropbtn" href="{{section.id | prepend:'#'}}">{{section.name}}</a>
                     <div class="dropdown-content">
-                      <a href="#">Link 1</a>
-                      <a href="#">Link 2</a>
-                      <a href="#">Link 3</a>
+                        <a href="#about_us"> Mission </a>
+                        <a href="#board_of_directors"> Board of Directors </a>
+                        <a href="#committee_members"> Committee Members </a>
+                        <a href="#partners"> Partners </a>
+                        <a href="#advisors"> Advisors </a>
+                        <a href="#sponsors"> Sponsors </a>
                     </div>
                   </div>
                   {% else %}
