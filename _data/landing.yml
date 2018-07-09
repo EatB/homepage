@@ -28,7 +28,7 @@
 #   name: Member
 #   tpl:
 #   css:
-  
+
 - id: career
   i18n: nav.career
   name: Program Timeline
@@ -59,3 +59,8 @@
   name: Join Us
   tpl: links.html
   css: contact
+
+- id: footer
+  name:
+  css:
+  tpl: footer.html
