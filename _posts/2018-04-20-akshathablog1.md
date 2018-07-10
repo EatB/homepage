@@ -15,7 +15,7 @@ author: Akshatha
 I remember my first venture as an “Entrepreneur” was when I was 10 years old. I had decided to sell my hand-made greeting cards at my school fair. Although it was a failed attempt, I had gotten my first taste of what it meant to be my own boss! I remember feeling this sense of pride that I could sell something I had made and could make money out of it (even though I had just made $1.50)!
 
 
-<img align="center"  src="https://cdn.instructables.com/FUB/3QL8/IYV9QCT2/FUB3QL8IYV9QCT2.LARGE.jpg?crop=3:2">
+<img align="center"   src="https://cdn.instructables.com/FUB/3QL8/IYV9QCT2/FUB3QL8IYV9QCT2.LARGE.jpg?crop=3:2">
 
 <!--
 ![alt text](https://cdn.instructables.com/FUB/3QL8/IYV9QCT2/FUB3QL8IYV9QCT2.LARGE.jpg?crop=3:2 "Logo Title Text 1") -->
