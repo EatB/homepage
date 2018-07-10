@@ -7,6 +7,7 @@ keywords: "blog,easy"
 categories: [HTML]
 tags: [Jalpc,Jekyll]
 icon: icon-html
+author: Akshatha
 ---
 <span style="color: #f2cf4a; font-family: Babas; font-size: 2em;">
 *“Entrepreneurship”, is a buzzword heard everywhere, especially in a start-up hub like the Bay Area!*

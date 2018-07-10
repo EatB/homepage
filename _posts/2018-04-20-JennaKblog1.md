@@ -7,6 +7,7 @@ keywords: ""
 categories:
 tags:
 icon:
+author: Jenna Kiyasu
 ---
 
 <h3>__What I want to get out of this club:__</h3>
