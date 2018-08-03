@@ -1,16 +1,125 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
-    detail: Panelist Event
+    detail: General Meeting 1
     i18n: company_a
   desc:
-    detail: Featuring multiple VCs, CEOs, and CTOs
+    detail:
+      - desc: 1. Welcome, introduction, and club overview
+      - desc: 2. What is entrepreneurship and why to be an entrepreneur?
+      - desc: 3. Game - Risks and Trust
+      - desc: 4. Assignment - submit a business idea before general meeting 2. If you do not have one, you will join a team
     i18n: company_a_desc
-    url: https://www.eventbrite.com/e/entrepreneur-panel-tickets-44618692711
+    url: https://entrepreneurs.berkeley.edu/
   date:
-    detail: April 5, 6:30 - 8:30pm
+    detail: TBD
     i18n: company_a_date
-  job:
-    detail: Moffit 103
+  location:
+    detail: TBD
+    i18n: company_a_job
+  icon: fa-plus-square
+
+- name:
+    detail: General Meeting 2
+    i18n: company_a
+  desc:
+    detail:
+    - desc: 1. Select business ideas to work on and members pitch ideas and team formation
+    - desc: 2. Getting to know team members
+    i18n: company_a_desc
+    url: https://entrepreneurs.berkeley.edu/
+  date:
+    detail: TBD
+    i18n: company_a_date
+  location:
+    detail: TBD
+    i18n: company_a_job
+  icon: fa-plus-square
+
+- name:
+    detail: General Meeting 3
+    i18n: company_a
+  desc:
+    detail:
+    - desc: 1. Business design & models
+    - desc: 2. Creating your own business models with your team
+    - desc: 3. Mentors help give feedback of your business model
+    i18n: company_a_desc
+    url: https://entrepreneurs.berkeley.edu/
+  date:
+    detail: TBD
+    i18n: company_a_date
+  location:
+    detail: TBD
+    i18n: company_a_job
+  icon: fa-plus-square
+
+- name:
+    detail: General Meeting 4
+    i18n: company_a
+  desc:
+    detail:
+    - desc: 1. Who is your customers?
+    - desc: 2. Creating market research, survey and interviews with your potential customers
+    - desc: 3. Assignment - collect your survey data
+    i18n: company_a_desc
+    url: https://entrepreneurs.berkeley.edu/
+  date:
+    detail: TBD
+    i18n: company_a_date
+  location:
+    detail: TBD
+    i18n: company_a_job
+  icon: fa-plus-square
+
+- name:
+    detail: General Meeting 5
+    i18n: company_a
+  desc:
+    detail:
+    - desc: 1. Mentors help give feedback on market research
+    - desc: 2. How to promote your products?
+    - desc: 3. Discuss with your team
+    i18n: company_a_desc
+    url: https://entrepreneurs.berkeley.edu/
+  date:
+    detail: TBD
+    i18n: company_a_date
+  location:
+    detail: TBD
+    i18n: company_a_job
+  icon: fa-plus-square
+
+- name:
+    detail: General Meeting 6
+    i18n: company_a
+  desc:
+    detail:
+    - desc: 1. Mentors help give feedback on market research
+    - desc: 2. How to promote your products?
+    - desc: 3. Discuss with your team
+    i18n: company_a_desc
+    url: https://entrepreneurs.berkeley.edu/
+  date:
+    detail: TBD
+    i18n: company_a_date
+  location:
+    detail: TBD
+    i18n: company_a_job
+  icon: fa-plus-square
+
+- name:
+    detail: General Meeting 7
+    i18n: company_a
+  desc:
+    detail:
+    - desc: Final presentation to investors
+    i18n: company_a_desc
+    url: https://entrepreneurs.berkeley.edu/
+  date:
+    detail: TBD
+    i18n: company_a_date
+  location:
+    detail: TBD
     i18n: company_a_job
   icon: fa-plus-square
