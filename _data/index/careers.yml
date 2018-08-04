@@ -1,14 +1,27 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
+    detail: Info Session
+    i18n: company_a
+  desc:
+    detail:
+    - desc:
+    i18n: company_a_desc
+    url: https://entrepreneurs.berkeley.edu/
+  date:
+    detail: TBD
+    i18n: company_a_date
+  location:
+    detail: TBD
+    i18n: company_a_job
+  icon: fa-plus-square
+
+- name:
     detail: General Meeting 1
     i18n: company_a
   desc:
     detail:
-      - desc: 1. Welcome, introduction, and club overview
-      - desc: 2. What is entrepreneurship and why to be an entrepreneur?
-      - desc: 3. Game - Risks and Trust
-      - desc: 4. Assignment - submit a business idea before general meeting 2. If you do not have one, you will join a team
+      - desc: Welcome, introduction, and club overview
     i18n: company_a_desc
     url: https://entrepreneurs.berkeley.edu/
   date:
@@ -24,8 +37,7 @@
     i18n: company_a
   desc:
     detail:
-    - desc: 1. Select business ideas to work on and members pitch ideas and team formation
-    - desc: 2. Getting to know team members
+      - desc: Pitch idea, team formation
     i18n: company_a_desc
     url: https://entrepreneurs.berkeley.edu/
   date:
@@ -41,9 +53,7 @@
     i18n: company_a
   desc:
     detail:
-    - desc: 1. Business design & models
-    - desc: 2. Creating your own business models with your team
-    - desc: 3. Mentors help give feedback of your business model
+      - desc: Market research, get to know your customers
     i18n: company_a_desc
     url: https://entrepreneurs.berkeley.edu/
   date:
@@ -59,9 +69,7 @@
     i18n: company_a
   desc:
     detail:
-    - desc: 1. Who is your customers?
-    - desc: 2. Creating market research, survey and interviews with your potential customers
-    - desc: 3. Assignment - collect your survey data
+      - desc: Business model
     i18n: company_a_desc
     url: https://entrepreneurs.berkeley.edu/
   date:
@@ -77,9 +85,7 @@
     i18n: company_a
   desc:
     detail:
-    - desc: 1. Mentors help give feedback on market research
-    - desc: 2. How to promote your products?
-    - desc: 3. Discuss with your team
+      - desc: Startup finance/legal
     i18n: company_a_desc
     url: https://entrepreneurs.berkeley.edu/
   date:
@@ -95,9 +101,7 @@
     i18n: company_a
   desc:
     detail:
-    - desc: 1. Mentors help give feedback on market research
-    - desc: 2. How to promote your products?
-    - desc: 3. Discuss with your team
+      - desc: Pre-presentation
     i18n: company_a_desc
     url: https://entrepreneurs.berkeley.edu/
   date:
@@ -113,7 +117,7 @@
     i18n: company_a
   desc:
     detail:
-    - desc: Final presentation to investors
+      - desc: Demo day
     i18n: company_a_desc
     url: https://entrepreneurs.berkeley.edu/
   date:
