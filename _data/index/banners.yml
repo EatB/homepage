@@ -5,8 +5,8 @@
 - src: landing/banner_1.png
   title: first banner image
 
-#- src: landing/banner2.jpg
-#  title: second banner image
+- src: landing/banner2.jpg
+  title: second banner image
 #
 #- src: landing/banner3.jpg
 #  title: third banner image
