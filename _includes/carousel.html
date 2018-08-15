@@ -1,9 +1,17 @@
 <style>
-    .header-back{
-
-        background-size: cover;
-
+    @media only screen and (max-width: 600px) {
+        .header-back{
+            background-position: center;
+            background-size: 500px 600px;
+        }
     }
+    @media only screen and (min-width: 1020px) {
+        .header-back{
+            background-position: center;
+            background-size: cover;
+        }
+    }
+
 </style>
 <div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
     <ol class="carousel-indicators">
