@@ -53,31 +53,32 @@ permalink: /
           display: block;
       }
 
+
       .dropdown-content a:hover {background-color: #ddd;}
 
       .dropdown:hover .dropdown-content {display: block;}
       </style>
       <div id="navbar" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav navbar-right" id="i18_navbar">
+        <ul class="nav navbar-nav navbar-right custom_color" id="i18_navbar">
           {% for section in site.data.landing %}
             <li>
               {% if section.page %}
-                <a class="page-scroll" href="{{ section.page}} "> {{section.name}}</a>
+                <a class="page-scroll" style="color: #1e0010" href="{{ section.page}} "> {{section.name}}</a>
               {% else %}
                   {% if section.drop_down_list %}
                   <div class="dropdown">
-                    <a class="dropbtn" href="{{section.id | prepend:'#'}}"><i class="fa fa-caret-down"></i> {{section.name}} <i class="fa fa-caret-down"></i></a>
+                    <a class="page-scroll dropbtn" style="color: #1e0010"href="{{section.id | prepend:'#'}}"><i class="fa fa-caret-down"></i> {{section.name}} <i class="fa fa-caret-down"></i></a>
                     <div class="dropdown-content">
-                        <a href="#about_us"> Mission </a>
-                        <a href="#board_of_directors"> Board of Directors </a>
-                        <a href="#committee_members"> Committee Members </a>
-                        <a href="#partners"> Partners </a>
-                        <a href="#advisors"> Advisors </a>
+                        <a href="#about_us" style="color: #1e0010"> Mission </a>
+                        <a href="#board_of_directors" style="color: #1e0010"> Board of Directors </a>
+                        <a href="#committee_members" style="color: #1e0010"> Committee Members </a>
+                        <a href="#partners" style="color: #1e0010"> Partners </a>
+                        <a href="#advisors" style="color: #1e0010"> Advisors </a>
                         <!--<a href="#sponsors"> Sponsors </a>-->
                     </div>
                   </div>
                   {% else %}
-                    <a class="page-scroll" href="{{ section.id | prepend: '#'}} "> {{section.name}} </a>
+                    <a class="page-scroll" style="color: #1e0010" href="{{ section.id | prepend: '#'}} "> {{section.name}} </a>
                   {% endif %}
               {% endif %}
             </li>

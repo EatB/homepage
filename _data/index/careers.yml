@@ -9,7 +9,7 @@
     i18n: company_a_desc
     url: https://entrepreneurs.berkeley.edu/
   date:
-    detail: Wednesday, August 29, 2018
+    detail: 20:00 - 21:00, Wednesday, August 29, 2018
     i18n: company_a_date
   location:
     detail: Dwinelle 105
@@ -25,7 +25,7 @@
     i18n: company_a_desc
     url: https://entrepreneurs.berkeley.edu/
   date:
-    detail: Wednesday, Sep 5, 2018
+    detail: 20:00 - 21:00, Wednesday, Sep 5, 2018
     i18n: company_a_date
   location:
     detail: TBD
@@ -89,7 +89,7 @@
     i18n: company_a_desc
     url: https://entrepreneurs.berkeley.edu/
   date:
-    detail: Wednesday, September 12, 2018
+    detail: 20:00 - 21:30, Wednesday, September 12, 2018
     i18n: company_a_date
   location:
     detail: TBD
@@ -105,7 +105,7 @@
     i18n: company_a_desc
     url: https://entrepreneurs.berkeley.edu/
   date:
-    detail: Wednesday, September 26, 2018
+    detail: 20:00 - 21:30, Wednesday, September 26, 2018
     i18n: company_a_date
   location:
     detail: TBD
@@ -121,7 +121,7 @@
     i18n: company_a_desc
     url: https://entrepreneurs.berkeley.edu/
   date:
-    detail: Wednesday, October 3, 2018
+    detail: 20:00 - 21:30, Wednesday, October 3, 2018
     i18n: company_a_date
   location:
     detail: TBD
@@ -137,7 +137,7 @@
     i18n: company_a_desc
     url: https://entrepreneurs.berkeley.edu/
   date:
-    detail: Wednesday, October 17, 2018
+    detail: 20:00 - 21:30, Wednesday, October 17, 2018
     i18n: company_a_date
   location:
     detail: TBD
@@ -153,7 +153,7 @@
     i18n: company_a_desc
     url: https://entrepreneurs.berkeley.edu/
   date:
-    detail: Wednesday, October 31, 2018
+    detail: 20:00 - 21:30, Wednesday, October 31, 2018
     i18n: company_a_date
   location:
     detail: TBD
@@ -169,7 +169,7 @@
     i18n: company_a_desc
     url: https://entrepreneurs.berkeley.edu/
   date:
-    detail: Wednesday, November 7, 2018
+    detail: 20:00 - 21:30, Wednesday, November 7, 2018
     i18n: company_a_date
   location:
     detail: TBD
@@ -185,7 +185,7 @@
     i18n: company_a_desc
     url: https://entrepreneurs.berkeley.edu/
   date:
-    detail: Wednesday, November 21 or November 28, 2018
+    detail: 20:00 - 21:30, Wednesday, November 21 or November 28, 2018
     i18n: company_a_date
   location:
     detail: TBD
