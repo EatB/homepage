@@ -15,3 +15,7 @@
   img: static/assets/img/leader_mugshots/neil_qiao.jpg
   email: neilqiao@entrepreneurs.berkeley.edu
 
+- name: Enrique Santos
+  i18n:
+  img: static/assets/img/leader_mugshots/enrique.jpg
+  email: esantosarias@entrepreneurs.berkeley.edu
