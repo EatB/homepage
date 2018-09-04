@@ -1,7 +1,7 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
-    detail: Info Session
+    detail: Info Session I
     i18n: company_a
   desc:
     detail:
@@ -17,7 +17,7 @@
   icon: fa-plus-square
 
 - name:
-    detail: Info Session
+    detail: Info Session II
     i18n: company_a
   desc:
     detail:
@@ -28,7 +28,7 @@
     detail: 20:00 - 21:00, Wednesday, Sep 5, 2018
     i18n: company_a_date
   location:
-    detail: TBD
+    detail: Dwinelle 88
     i18n: company_a_job
   icon: fa-plus-square
 
