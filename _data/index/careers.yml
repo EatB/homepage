@@ -92,7 +92,7 @@
     detail: 20:00 - 21:30, Wednesday, September 12, 2018
     i18n: company_a_date
   location:
-    detail: TBD
+    detail: Dwinelle 88
     i18n: company_a_job
   icon: fa-plus-square
 
@@ -153,7 +153,7 @@
     i18n: company_a_desc
     url: https://entrepreneurs.berkeley.edu/
   date:
-    detail: 20:00 - 21:30, Wednesday, October 31, 2018
+    detail: 20:00 - 21:30, Wednesday, October 26, 2018
     i18n: company_a_date
   location:
     detail: TBD
@@ -185,7 +185,7 @@
     i18n: company_a_desc
     url: https://entrepreneurs.berkeley.edu/
   date:
-    detail: 20:00 - 21:30, Wednesday, November 28, 2018
+    detail: December 1, 2018.
     i18n: company_a_date
   location:
     detail: TBD
