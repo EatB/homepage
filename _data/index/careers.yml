@@ -108,7 +108,7 @@
     detail: 20:00 - 21:30, Wednesday, September 26, 2018
     i18n: company_a_date
   location:
-    detail: TBD
+    detail: Dwinelle 88
     i18n: company_a_job
   icon: fa-plus-square
 
@@ -124,7 +124,7 @@
     detail: 20:00 - 21:30, Wednesday, October 3, 2018
     i18n: company_a_date
   location:
-    detail: TBD
+    detail: Dwinelle 88
     i18n: company_a_job
   icon: fa-plus-square
 
