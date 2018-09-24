@@ -101,7 +101,13 @@
     i18n: company_a
   desc:
     detail:
-      - desc: Pitch idea, team formation
+      - event:
+          desc: Pitch idea, team formation
+          src:
+      - event:
+          desc: Guest Speaker - Nathan Gold
+          src: https://www.democoach.com/
+
     i18n: company_a_desc
     url: https://entrepreneurs.berkeley.edu/
   date:
