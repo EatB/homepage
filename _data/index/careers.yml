@@ -123,7 +123,9 @@
     i18n: company_a
   desc:
     detail:
-      - desc: Market research, get to know your customers
+      - event:
+          desc: Market research, get to know your customers
+          src:
     i18n: company_a_desc
     url: https://entrepreneurs.berkeley.edu/
   date:
@@ -139,7 +141,9 @@
     i18n: company_a
   desc:
     detail:
-      - desc: Business model
+      - event:
+          desc: Business model
+          src:
     i18n: company_a_desc
     url: https://entrepreneurs.berkeley.edu/
   date:
@@ -155,7 +159,9 @@
     i18n: company_a
   desc:
     detail:
-      - desc: Startup finance/legal
+      - event:
+          desc: Startup finance/legal
+          src:
     i18n: company_a_desc
     url: https://entrepreneurs.berkeley.edu/
   date:
@@ -171,7 +177,9 @@
     i18n: company_a
   desc:
     detail:
-      - desc: Pre-presentation
+      - event:
+          desc: Pre-presentation
+          src:
     i18n: company_a_desc
     url: https://entrepreneurs.berkeley.edu/
   date:
@@ -187,7 +195,9 @@
     i18n: company_a
   desc:
     detail:
-      - desc: Demo day
+      - event:
+          desc: Demo day
+          src:
     i18n: company_a_desc
     url: https://entrepreneurs.berkeley.edu/
   date:
