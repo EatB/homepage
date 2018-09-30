@@ -132,7 +132,7 @@
     detail: 20:00 - 21:30, Wednesday, October 3, 2018
     i18n: company_a_date
   location:
-    detail: Haas C125
+    detail: Cheit Hall C125
     i18n: company_a_job
   icon: fa-plus-square
 
@@ -150,7 +150,7 @@
     detail: 20:00 - 21:30, Wednesday, October 17, 2018
     i18n: company_a_date
   location:
-    detail: Haas N400+N444
+    detail: Chou Hall N400+N444
     i18n: company_a_job
   icon: fa-plus-square
 
@@ -168,7 +168,7 @@
     detail: 20:00 - 21:30, Wednesday, October 24, 2018
     i18n: company_a_date
   location:
-    detail: Haas N440+N444
+    detail: Chou Hall N440+N444
     i18n: company_a_job
   icon: fa-plus-square
 
@@ -186,7 +186,7 @@
     detail: 20:00 - 21:30, Wednesday, November 7, 2018
     i18n: company_a_date
   location:
-    detail: Haas N440+N444
+    detail: TBD
     i18n: company_a_job
   icon: fa-plus-square
 
