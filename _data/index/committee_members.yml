@@ -19,3 +19,8 @@
   i18n:
   img: static/assets/img/leader_mugshots/enrique.jpg
   email: esantosarias@entrepreneurs.berkeley.edu
+
+- name: Clark Wang
+  i18n:
+  img: static/assets/img/leader_mugshots/clark_wang_mugshot.jpg
+  email: clarkwang@entrepreneurs.berkeley.edu
