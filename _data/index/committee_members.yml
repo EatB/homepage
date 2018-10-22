@@ -24,3 +24,8 @@
   i18n:
   img: static/assets/img/leader_mugshots/clark_wang_mugshot.jpg
   email: clarkwang@entrepreneurs.berkeley.edu
+
+- name: Rimika Banerjee
+  i18n:
+  img: static/assets/img/leader_mugshots/rimika_banerjee_mugshot.jpg
+  email: rimikabanerjee@entrepreneurs.berkeley.edu
