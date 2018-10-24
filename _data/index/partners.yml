@@ -15,3 +15,9 @@
   img: static/assets/img/partners/bear_founders_logo.png
   email:
   bio:
+
+- name: Berkeley Entrepreneurs Association
+  i18n: Berkeley Entrepreneurs Association
+  img: static/assets/img/partners/bea.png
+  email:
+  bio:
