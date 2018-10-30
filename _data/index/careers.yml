@@ -180,6 +180,9 @@
       - event:
           desc: Startup finance/legal
           src:
+      - event:
+          desc: Guest Speaker - Buddy Burke
+          src: https://www.linkedin.com/in/buddy-burke-3333a3a/
     i18n: company_a_desc
     url: https://entrepreneurs.berkeley.edu/
   date:
