@@ -207,7 +207,7 @@
     detail: 20:00 - 21:30, Wednesday, November 7, 2018
     i18n: company_a_date
   location:
-    detail: TBD
+    detail: Chou Hall N440+N444
     i18n: company_a_job
   icon: fa-plus-square
 
@@ -225,6 +225,6 @@
     detail: December 1, 2018.
     i18n: company_a_date
   location:
-    detail: TBD
+    detail: Chou Hall N440+N444
     i18n: company_a_job
   icon: fa-plus-square
