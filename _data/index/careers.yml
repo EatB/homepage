@@ -178,7 +178,7 @@
   desc:
     detail:
       - event:
-          desc: Startup finance/legal
+          desc: Pre-presentation
           src:
       - event:
           desc: Guest Speaker - Buddy Burke
@@ -198,9 +198,12 @@
     i18n: company_a
   desc:
     detail:
-      - event:
-          desc: Pre-presentation
-          src:
+    - event:
+        desc: Startup finance/legal
+        src:
+    - event:
+        desc: Guest Speaker - William Kerr
+        src: https://www.linkedin.com/in/williamkerr/
     i18n: company_a_desc
     url: https://entrepreneurs.berkeley.edu/
   date:
