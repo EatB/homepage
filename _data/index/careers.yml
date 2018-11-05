@@ -202,8 +202,8 @@
         desc: Startup finance/legal
         src:
     - event:
-        desc: Guest Speaker - William Kerr
-        src: https://www.linkedin.com/in/williamkerr/
+        desc: Guest Speaker - William Kell
+        src: https://www.law.berkeley.edu/our-faculty/faculty-profiles/william-kell/
     i18n: company_a_desc
     url: https://entrepreneurs.berkeley.edu/
   date:
