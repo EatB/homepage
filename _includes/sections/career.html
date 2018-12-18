@@ -8,21 +8,21 @@
     <div class="row features-block">
         <div class="col-lg-12">
             <div id="vertical-timeline" class="vertical-container light-timeline center-orientation">
-            {% for career in site.data.index.careers %}
+            {% for event in site.data.index.current_program_timeline %}
             {% assign loopindex = forloop.index | modulo: 2 %}
                 <div class="vertical-timeline-block">
                     <div class="vertical-timeline-icon navy-bg wow rotateIn">
-                        <i class="fa {{ career.icon }}"></i>
+                        <i class="fa {{ event.icon }}"></i>
                     </div>
                     <div class="vertical-timeline-content wow {% if loopindex == 1 %} rotateInUpRight {% else %} rotateInUpLeft {% endif %}">
-                        <a href="{{ career.desc.url }}">
-                          <h2><span data-i18n="career.{{ career.name.i18n }}">{{ career.name.detail }}</span></h2>
-                            {% for detail in career.desc.detail %}
+                        <a href="{{ event.desc.url }}">
+                          <h2><span data-i18n="career.{{ event.name.i18n }}">{{ event.name.detail }}</span></h2>
+                            {% for detail in event.desc.detail %}
                                 <a href="{{detail.event.src}}" style="margin: 10px;"> {{detail.event.desc}} </a>
                                 <br>
                             {% endfor %}
-                          <span class="vertical-date"><span data-i18n="career.{{ career.date.i18n }}"> {{ career.date.detail }} </span>
-                          <br/> <small><span data-i18n="career.{{ career.job.i18n }}">{{ career.location.detail }}</span></small> </span>
+                          <span class="vertical-date"><span data-i18n="event.{{ event.date.i18n }}"> {{ event.date.detail }} </span>
+                          <br/> <small><span data-i18n="event.{{ event.job.i18n }}">{{ event.location.detail }}</span></small> </span>
                         </a>
                     </div>
                 </div>

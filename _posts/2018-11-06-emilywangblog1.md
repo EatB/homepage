@@ -22,7 +22,7 @@ The interview concluded with a quote that everyone should keep in mind.
 
 
 
-<img align="center"   src="https://assets.techstars.com/images/image_files/58cb21099c66a9458b000002/original/Screenshot_2017-03-16_16.32.11.png">
+<img align="center" src="https://assets.techstars.com/images/image_files/58cb21099c66a9458b000002/original/Screenshot_2017-03-16_16.32.11.png">
 
 <!--
 ![alt text](https://cdn.instructables.com/FUB/3QL8/IYV9QCT2/FUB3QL8IYV9QCT2.LARGE.jpg?crop=3:2 "Logo Title Text 1") -->
