@@ -21,3 +21,9 @@
   img: static/assets/img/partners/bea.png
   email:
   bio:
+
+- name: Hardware Massive
+  i18n:
+  img: static/assets/img/partners/hardwaremassive.jpg
+  email:
+  bio:
