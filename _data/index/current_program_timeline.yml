@@ -97,7 +97,7 @@
   icon: fa-plus-square
 
 - name:
-    #detail: General Meeting 2
+    detail: General Meeting 2
     i18n: company_a
   desc:
 #    detail:
