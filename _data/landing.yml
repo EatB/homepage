@@ -31,9 +31,10 @@
 
 - id: career
   i18n: nav.career
-  name: Program Timeline
-  tpl: career.html
-  css: timeline
+  name: Calendar
+  tpl: calendar.html
+  page: calendar/
+  css: testimonials navy-section
 
 #- id: skills
 #  i18n: nav.skills
