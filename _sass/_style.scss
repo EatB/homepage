@@ -2504,6 +2504,7 @@
       width: 100%;
       background-position: 50% 0;
       background-repeat:  no-repeat;
+      background-size: cover;
     }
     .carousel {
       height: 470px;
@@ -2512,8 +2513,8 @@
       z-index: 10;
     }
     .carousel .item {
-      height: 470px;
-      background-color: #777;
+      height: 100px;
+      background-color: #000;
     }
     .carousel-inner > .item > img {
       position: absolute;

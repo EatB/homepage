@@ -27,20 +27,21 @@
         </div>
 
         {% for banner in site.data.index.banners offset:1 %}
-        <div class="item">
-            <div class="container">
-                <div class="carousel-caption">
-                </div>
-                <div class="carousel-image wow zoomIn">
-                    <!-- <img src="static/img/landing/laptop.png" alt="laptop"/> -->
-                </div>
-            </div>
-            <!-- Set background for slide in css -->
-            <div class="header-back" style="background-image: url({{ "/static/assets/img/"  | prepend: site.baseurl }}{{ banner.src }});" title="{{ banner.title }}"></div>
-    </div>
-    {% endfor %}
+          <div class="item">
+              <div class="container">
+                  <div class="carousel-caption">
+                  </div>
+                  <div class="carousel-image wow zoomIn">
+                      <!-- <img src="static/img/landing/laptop.png" alt="laptop"/> -->
+                  </div>
+              </div>
+              <!-- Set background for slide in css -->
+              <div class="header-back" style="background-image: url({{ "/static/assets/img/"  | prepend: site.baseurl }}{{ banner.src }});" title="{{ banner.title }}"></div>
+          </div>
+        {% endfor %}
 
 </div>
+
 <a class="left carousel-control" href="#inSlider" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
