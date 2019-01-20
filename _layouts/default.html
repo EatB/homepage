@@ -13,13 +13,15 @@ layout: compress
 
 <body id="page-top" class="landing-page">
 
-    {% if page.title != 'index' %}
+    {% if page.title == 'blog' %}
         {% include blog_header.html %}
+    {% else if page.title == 'calendar' %}
+        {% include calendar_header.html %}
     {% endif %}
 
     {{ content }}
 
-    {% if page.title != 'index' %}
+    {% if page.title == 'blog' %}
         {% include foot.html %}
     {% else %}
         {% include index_foot.html %}
