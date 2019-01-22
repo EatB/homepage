@@ -273,12 +273,12 @@ process, and successfully launch a business.</span></p>
               {% assign loopindex = forloop.index | modulo: 2 %}
               {% if forloop.last %}
                   {% if forloop.last == forloop.first %}
-                    <div class="col-sm-6 wow col-sm-offset-3 zoomIn" style = "width: 50%; height:300px;">
+                    <div class="col-sm-6 wow col-sm-offset-3 zoomIn" style = "height:300px;">
                   {% else %}
-                    <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft col-sm-offset-3 {% else %} fadeInRight {% endif %}" style = "width: 50%; height:300px;">
+                    <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft col-sm-offset-3 {% else %} fadeInRight {% endif %}" style = "height:300px;">
                   {% endif %}
               {% else %}
-                <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft {% else %} fadeInRight {% endif %}" style = "width: 50%; height:300px;" >
+                <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft {% else %} fadeInRight {% endif %}" style = "height:300px;" >
               {% endif %}
                 <div class="team-member" style="margin: 20px;">
                     <img src="{{ team.img | prepend: site.baseurl }}" class="img-responsive" alt="">
