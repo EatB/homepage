@@ -11,7 +11,7 @@
     detail: 20:00 - 21:00, Tuesday, January 29, 2019
     i18n: company_a_date
   location:
-    #detail: Dwinelle 105
+    detail: Haas, Chou Hall N440+444
     i18n: company_a_job
   icon: fa-plus-square
 
@@ -26,7 +26,7 @@
     detail: 20:00 - 21:00, Thursday, January 31, 2019
     i18n: company_a_date
   location:
-    #detail: Dwinelle 88
+    detail: Haas, Chou Hall N440+444
     i18n: company_a_job
   icon: fa-plus-square
 
@@ -51,15 +51,15 @@
     detail: General Meeting 1
     i18n: company_a
   desc:
-    #detail:
-    #  - desc: Welcome, introduction, and club overview
+    detail:
+     - desc: Welcome, introduction, and club overview
     i18n: company_a_desc
     url: https://entrepreneurs.berkeley.edu/
   date:
     detail: 20:00 - 21:30, Wednesday, February 13, 2019
     i18n: company_a_date
   location:
-    #detail: Dwinelle 88
+    detail: Haas, Chou Hall N540+544
     i18n: company_a_job
   icon: fa-plus-square
 
@@ -67,21 +67,15 @@
     detail: General Meeting 2
     i18n: company_a
   desc:
-#    detail:
-#      - event:
-#          desc: Pitch idea, team formation
-#          src:
-#      - event:
-#          desc: Guest Speaker - Nathan Gold
-#          src: https://www.democoach.com/
-
+   detail:
+    desc: Pitch idea, team formation
     i18n: company_a_desc
     url: https://entrepreneurs.berkeley.edu/
   date:
     detail: 20:00 - 21:30, Wednesday, February 27, 2019
     i18n: company_a_date
   location:
-#    detail: Dwinelle 88
+    detail: Haas, Chou Hall N540+544
 #    i18n: company_a_job
   icon: fa-plus-square
 
@@ -108,9 +102,10 @@
     detail: 20:00 - 21:30, Wednesday, March 13, 2019
     i18n: company_a_date
   location:
-#    detail: Cheit Hall C125
+    detail: Haas, Chou Hall N540+544
     i18n: company_a_job
   icon: fa-plus-square
+
 - name:
     detail: Entry Decision Day
   desc:
