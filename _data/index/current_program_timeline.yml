@@ -67,8 +67,8 @@
     detail: General Meeting 2
     i18n: company_a
   desc:
-   detail:
-    desc: Pitch idea, team formation
+    detail:
+     - desc: Pitch idea, team formation
     i18n: company_a_desc
     url: https://entrepreneurs.berkeley.edu/
   date:
@@ -83,19 +83,8 @@
     detail: General Meeting 3
     i18n: company_a
   desc:
-#    detail:
-#      - event:
-#          desc: Market research, get to know your customers
-#          src:
-#      - event:
-#          desc: Guest Speaker - Harold Mann
-#          src: https://www.linkedin.com/in/hmann/
-#      - event:
-#          desc: Guest Speaker - Pamela Nedik Induni
-#          src: https://www.linkedin.com/in/pamela-nedik-induni/
-#      - event:
-#          desc: Guest Speaker - Brian Induni
-#          src: https://www.linkedin.com/in/brianinduni/
+    detail:
+      - desc: Market Research
     i18n: company_a_desc
     url: https://entrepreneurs.berkeley.edu/
   date:
@@ -112,23 +101,13 @@
       detail:
   date:
     detail: Friday, March 15, 2019
+
 - name:
     detail: General Meeting 4
     i18n: company_a
   desc:
     detail:
-#      - event:
-#          desc: Topic - Business model
-#          src:
-#      - event:
-#          desc: Guest Speaker - Michael Selden
-#          src: https://www.linkedin.com/in/michael-selden/
-#      - event:
-#          desc: Guest Speaker - Adrian Wang
-#          src: https://www.linkedin.com/in/michael-selden/
-#      - event:
-#          desc: Guest Speaker - Pamela Day
-#          src: https://www.linkedin.com/in/pameladay/
+      - desc: Business Model
     i18n: company_a_desc
     url: https://entrepreneurs.berkeley.edu/
   date:
@@ -144,12 +123,7 @@
     i18n: company_a
   desc:
     detail:
-#      - event:
-#          desc: Pre-presentation
-#          src:
-#      - event:
-#          desc: Guest Speaker - Buddy Burke
-#          src: https://www.linkedin.com/in/buddy-burke-3333a3a/
+      - desc: Startup finance/legal
     i18n: company_a_desc
     url: https://entrepreneurs.berkeley.edu/
   date:
@@ -165,36 +139,27 @@
     i18n: company_a
   desc:
     detail:
-#    - event:
-#        desc: Startup finance/legal
-#        src:
-#    - event:
-#        desc: Guest Speaker - William Kell
-#        src: https://www.law.berkeley.edu/our-faculty/faculty-profiles/william-kell/
+      - desc: Pre-Presentation
     i18n: company_a_desc
     url: https://entrepreneurs.berkeley.edu/
   date:
     detail: 20:00 - 21:30, Wednesday, April 17, 2019
     i18n: company_a_date
   location:
-#    detail: Chou Hall N440+N444
     i18n: company_a_job
   icon: fa-plus-square
 
 - name:
-    detail: General Meeting 7 (Final Demo Day)
+    detail: General Meeting 7
     i18n: company_a
   desc:
     detail:
-#      - event:
-#          desc: Demo day
-#          src:
+      - desc: Final Demo Day
     i18n: company_a_desc
     url: https://entrepreneurs.berkeley.edu/
   date:
     detail: (Tentative) Wednesday, May 8, 2019
     i18n: company_a_date
   location:
-#    detail: Chou Hall N440+N444
     i18n: company_a_job
   icon: fa-plus-square

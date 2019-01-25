@@ -1,19 +1,19 @@
 - name: Funnel
   img: static/assets/img/past_teams/funnel_logo.png
-  members: Prachi Jha, Kushagra Pandey, Beta Jui, Shao-Qian Mah
+  members: #Prachi Jha, Kushagra Pandey, Beta Jui, Shao-Qian Mah
   desc: Funnel helps keep track of all the food the you have - reminding you to eat food before it goes bad, suggesting recipes and ingredients to make your favorite meals.
 
 - name: Wymbo
   img: static/assets/img/past_teams/wymbo_logo.png
-  members: Raja Riahi, Shawn Magee
+  members: #Raja Riahi, Shawn Magee
   desc: We bring events and opportunities to college students based on their interests and their career goals. Finding events and opportunities on huge campuses like Cal is extremely time consuming, difficult and not efficient. Wymbo makes sure students, especially freshmen and transfers don’t miss out on opportunities anymore. Wymbo is now participating in the Skydeck Hotdesk Program
 
 - name: ViewR360
   img: static/assets/img/past_teams/viewr360_logo.png
-  members: Nimi Kalmanovich, Youqi Chen, Giovanni Santini
+  members: #Nimi Kalmanovich, Youqi Chen, Giovanni Santini
   desc: VR 360 is a live-streaming platform providing one-on-one or few-to-one live streaming sessions with a dedicated streamer, bringing to those people tailor-made content and experiences.
 
 - name: Deep
   img: static/assets/img/past_teams/deep_logo.png
-  members: Bader Almubarak, Peri Yakar
+  members: #Bader Almubarak, Peri Yakar
   desc: RealFeel, Deep aims at creating a culture centered around intentional conversations and meaningful connections. The vision is to have a platform that enables one-on-one conversations about any topic, at a suitable time and a convenient location. It foresees the creation of a community full of personalized networks built through face-to-face intentional conversations of value and depth.
