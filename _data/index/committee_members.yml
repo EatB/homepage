@@ -29,3 +29,18 @@
   i18n:
   img: static/assets/img/leader_mugshots/rimika_banerjee_mugshot.jpg
   email: rimikabanerjee@entrepreneurs.berkeley.edu
+
+- name: Raghav Mittal
+  i18n:
+  img: static/assets/img/leader_mugshots/raghav_mittal_mugshot.jpg
+  email: mittalraghav@berkeley.edu
+
+- name: Henry Cheong
+  i18n:
+  img: static/assets/img/leader_mugshots/henry_cheong_mugshot.jpeg
+  email: cheongh@berkeley.edu
+
+- name: James Wang
+  i18n:
+  img: static/assets/img/leader_mugshots/james_wang_mugshot.jpg
+  email: jameswang323@berkeley.edu
