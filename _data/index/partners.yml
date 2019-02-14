@@ -16,9 +16,9 @@
   email:
   bio:
 
-- name: Berkeley Entrepreneurs Association
-  i18n: Berkeley Entrepreneurs Association
-  img: static/assets/img/partners/bea.png
+- name: Arrow Capital
+  i18n:
+  img: static/assets/img/partners/arrow_capital.jpg
   email:
   bio:
 
