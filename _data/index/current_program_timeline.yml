@@ -114,7 +114,7 @@
     detail: 20:00 - 21:30, Wednesday, March 20, 2019
     i18n: company_a_date
   location:
-#    detail: Chou Hall N400+N444
+   detail: Chou Hall N270
     i18n: company_a_job
   icon: fa-plus-square
 

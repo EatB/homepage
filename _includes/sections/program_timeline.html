@@ -19,8 +19,6 @@
                           <h2><span data-i18n="career.{{ event.name.i18n }}">{{ event.name.detail }}</span></h2>
                             {% for detail in event.desc.detail %}
                               <p> {{detail.desc}} </p>
-                                
-                                <!-- <br> -->
                             {% endfor %}
                           <span class="vertical-date"><span data-i18n="event.{{ event.date.i18n }}"> {{ event.date.detail }} </span>
                           <br/> <small><span data-i18n="event.{{ event.job.i18n }}">{{ event.location.detail }}</span></small> </span>
